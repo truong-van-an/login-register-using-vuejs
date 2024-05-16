@@ -1,0 +1,60 @@
+footer{
+    padding-top: 20px;
+    .footer-wrapper{
+        background-color: $white;
+        border-top: 3px solid #333;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        .image-logo{
+            width: 70px;
+            img{
+                width: 100%;
+            }
+        }
+        .contact-info-page{
+            li{
+                svg{
+                    width: 20px;
+                    margin-right: 5px;
+                    color: $bg-color-button-blue;
+                }
+                span{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        .social-network{
+            li{
+                width: 35px;
+                height: 35px;
+                background-color: var(--clr);
+                justify-content: center;
+                border-radius: 50%;
+                cursor: pointer;
+                a{
+                    color: $white;
+                }
+            }
+        }
+        .about-us, .servive{
+            li{
+                i{
+                    margin-right: 5px;
+                }
+                a{
+                    text-decoration: none;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+
+.widget-menu{
+    li{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+}
